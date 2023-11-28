@@ -36,3 +36,23 @@
     
     const {endereco: { rua, numero}} = pessoa;
     console.log(rua, numero);
+
+
+  //OBJETOS 
+
+  const carro = {
+     marca: "ford",
+     modelo: "ka",
+     ano: 2015,
+     placa: "BCD-2233",
+     buzina: function() { alert('biiiiiiiii')}
+     
+  };
+
+
+  console.log(carro.placa);
+  carro.buzina();
+
+
+  
+     
